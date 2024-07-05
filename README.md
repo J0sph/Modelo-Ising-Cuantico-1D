@@ -20,7 +20,7 @@ Aquí ya se pueden crear y modificar archivos en la nueva rama.
 
 # Actualizaciones
 Despúes de crear/modificar archivos se utiliza:
-##### git add NOMBRE_DEL_ARCHIVO
+### git add NOMBRE_DEL_ARCHIVO
 
 Para guradarlo o ponerlo en la lista de cambios a realizar en el repositorio.
 
