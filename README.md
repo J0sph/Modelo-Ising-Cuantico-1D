@@ -54,10 +54,10 @@ Después de elegir la configuración se utiliza:
 
 #### git pull origin NOMBRE_DE_LA_RAMA
 
-Esto actualiza la rama actual con los archivos de la rama elegida en el comando anterior (puede ser la misma rama actual, para actualizarla por sia lguien le hizo algún cambio). Para la opción rebase, también se puede utilizar: 
+Esto actualiza la rama actual con los archivos de la rama elegida en el comando anterior (puede ser la misma rama actual). Para la opción rebase, también se puede utilizar: 
 
 #### git rebase NOMBRE_DE_LA_RAMA
 
-Si hubiera algún conflicto entre las ramas se debe solucionar para actualizar correctamente la rama local. Por ejemplo, si en la computadora local se tiene un código en el que se cambió la línea 3, y en el repositorio de GitHub el mismo código tiene la misma línea 3 pero modificada por alguien más, a la hora de actualizar el repositorio actual con el de GitHub va a haber un conflicto al tener un mismo archivo con una misma línea diferente. Github da opciones de modificar el archivo para oslucionar el conflicto antes de actualizar el repositorio local.
+Si hubiera algún conflicto entre las ramas se debe solucionar para actualizar correctamente la rama local. Por ejemplo, si en la computadora local se tiene un código en el que se cambió la línea 3, y en el repositorio de GitHub el mismo código tiene la misma línea 3 pero modificada por alguien más, a la hora de actualizar el repositorio actual con el de GitHub va a haber un conflicto al tener un mismo archivo con una misma línea diferente. Github da opciones de modificar el archivo para solucionar el conflicto antes de actualizar el repositorio local.
 
 
