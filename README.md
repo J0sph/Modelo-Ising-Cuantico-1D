@@ -11,7 +11,7 @@ Con esto se crea una carpeta en la computadora donde se pueden crear o modificar
 Se utiliza: 
 #### git branch NOMBRE_DE_LA_RAMA
 
-Sería bueno cada uno crear y trabajar en una rama aparte y al final juntar el trabajo en la rama main. En GitHub aparece arriba de los archivoos una pestaña para cambiar la rama main y ver alguna otra rama del repositorio, en caso de ser necesario revisar el código que ha subido alguien más en su rama respectiva.
+Sería bueno cada uno crear y trabajar en una rama aparte y al final juntar el trabajo en la rama main. En GitHub aparece arriba de los archivos una pestaña para cambiar la rama main y ver alguna otra rama del repositorio, en caso de ser necesario revisar el código que ha subido alguien más en su rama respectiva.
 
 Para cambairse a la rama creada se utiliza: 
 #### git checkout NOMBRE_DE_LA_RAMA
