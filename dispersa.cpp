@@ -86,7 +86,7 @@ int main() {
 
     // Conversión a una matriz densa para la diagonalización
     MatrixXd H_dense = MatrixXd(H_sparse);   //tamaño dinanmino con elementos del tipo double 
-    cout << "Hamiltoniano (forma densa):" << endl;
+    cout << "Hamiltoniano:" << endl;
     cout << H_dense << endl;
 
     // Diagonalización usando Eigen
@@ -101,7 +101,7 @@ int main() {
     MatrixXd diagonal_matrix = eigenvalues.asDiagonal();   //poner los autovalores en la diagonal como matriz densa para impresion
 
     // Impresion de los resultados
-    cout << "La matriz diagonalizada (autovalores en la diagonal) es: " << endl << diagonal_matrix << endl;
+    cout << "La matriz diagonalizada es: " << endl << diagonal_matrix << endl;
     cout << "Los autovalores son: " << endl << eigenvalues.transpose() << endl;
     cout << "Los autovectores son: " << endl << eigenvectors << endl;
 
