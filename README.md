@@ -1,5 +1,6 @@
 # Proyecto-Computacional
 Modelo de Ising cuántico unidimensional en una grilla de N espines: Análisis espectral.
+Se adjunta una descripción adicional en el informe del proyecto y la presentación.
 
 # Clonar el repositorio
 Utilizar:
